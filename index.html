@@ -9,6 +9,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+	<link rel="stylesheet" href="assets/css/reset.css"> <!-- CSS reset -->
 
 </head>
 
@@ -23,21 +24,27 @@
 			<li><a href="#team">Our Team</a></li>
 		</nav>
 	</header>
+<section class="utama">
+<div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
+<div id='title'>
 
-
-	<section class="utama">
-		<div class="background-image" style="background-image: url(assets/img/space.jpg);"></div>
-		<h2>Knowledge <span class="popup-text">+</span> Imagination <span class="popup-text">+</span> Creativity</h2>
+  <h2>Knowledge <span class="popup-text">+</span> Imagination <span class="popup-text">+</span> Creativity</h2>
 		<div class="animasi">
 <h1>= Successful Business<span class="popup-text"> !</span></h1></div>
-	</section>
+</div>
+</section>
 
 
 	<section class="our-work">
+	
 		<h3 class="title">we will build a rocket ship for your business</h3>
 		<p>Kami memahami bahwa setiap usaha yang sedang anda jalankan pantas dan dapat berkembang bahkan melesat maju seperti rocket.</p>
 		<hr>
-
+		<div class="vibrate-1">
+		<img src="assets/img/ic-rocket.png" />
+		</div>
 	</section>
 	
 
@@ -90,13 +97,13 @@
 			    <div class="team-icon">
 		            <p class="txt-contents"></p>
 		            <img src="assets/img/ic-ce21ed.png" alt=""/>
-		            <h3>Roma Sianipar</h3>
+		            <h3>Roma S</h3>
 		            <p>Indonesia</p>
 		        </div>
 		        <div class="team-icon">
 		          <p class="txt-contents"></p>
 		          <img src="assets/img/ic-boyed.png" alt=""/>
-		          <h3>Robby Marcell</h3>
+		          <h3>Robby M</h3>
 		          <p>Indonesia</p>
 		        </div>
 		        <div class="team-icon">
@@ -108,22 +115,61 @@
 		        <div class="team-icon">
 		            <p class="txt-contents"></p>
 		            <img src="assets/img/ic-boyed.png" alt="" />
-		            <h3>Rudy Prastowo</h3>
+		            <h3>Rudy P</h3>
 		            <p>Indonesia</p>
 		        </div>
 		        <div class="team-icon">
 		            <p class="txt-contents"></p>
 		            <img src="assets/img/ic-ce21ed.png" alt="" />
-		            <h3>Rosa Indah</h3>
+		            <h3>Rosa I</h3>
 		            <p>Indonesia</p>
 		        </div>
 		      </div>
-		</div>
+		</div>	
+	</section>
+
+	<section class="contact-form">
+		<h3 class="title">See Opportunity with Us? Let me know!</h3>
+		<hr>
+		<form class="cd-form floating-labels">
+		<fieldset>
+			<legend>Account Info</legend>
+
+
+			<div class="icon">
+				<label class="cd-label" for="cd-name">Name</label>
+				<input class="user" type="text" name="cd-name" id="cd-name" required>
+		    </div> 
+
+		    <div class="icon">
+		    	<label class="cd-label" for="cd-company">Company</label>
+				<input class="company" type="text" name="cd-company" id="cd-company">
+		    </div> 
+
+		    <div class="icon">
+		    	<label class="cd-label" for="cd-email">Email</label>
+				<input type="email" name="cd-email" id="cd-email" required>
+		    </div>
+		</fieldset>
+
+		<fieldset>
+			<legend>Project Info</legend>
+
 		
+			<div class="icon">
+				<label class="cd-label" for="cd-textarea">Project description</label>
+      			<textarea class="message" name="cd-textarea" id="cd-textarea" required></textarea>
+			</div>
+
+			<div>
+		      	<input type="submit" value="Send Message">
+		    </div>
+		</fieldset>
+	</form>
 	</section>
 
 	<footer>
-		<div class="background-image" style="background-image: url(assets/img/footer.jpg);"></div>
+		<div class="background-image" style="background-image: url(assets/img/footer.png);"></div>
 		<ul>
 			<li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
 			<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
@@ -133,6 +179,7 @@
 		</ul>
 		
 		<p>Tim i31 - Digitalent Scholarship 2020 - Pemprograman with Progate</p>
+
 	</footer>
 
 </body>
