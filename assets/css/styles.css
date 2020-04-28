@@ -852,6 +852,7 @@ header nav li:last-child{
 .cd-form input[type="submit"] {
   /* button style */
   border: none;
+  font-size: 1rem;
   background: #2c97de;
   border-radius: .25em;
   padding: 16px 20px;
@@ -1034,7 +1035,7 @@ footer p a{
 @media (max-width: 700px){
 
 	footer{
-		padding: 80px 15px;
+		padding: 30px 15px;
 	}
 
 }
